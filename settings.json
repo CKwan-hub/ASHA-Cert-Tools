@@ -1,0 +1,36 @@
+{
+    "siteURL": "https://apps.asha.org/eweb/ashadynamicpage.aspx?site=ashacms&webcode=ccchome",
+    "title": "ASHA Certification Verification",
+    "loginElem": "//*[@id=\"hypLogInOutLink\"]",
+    "emailInputElem": "//*[@id=\"txtEmailLogin\"]",
+    "passwordInputElem": "//*[@id=\"txtPasswordLogin\"]",
+    "signInButton": "//*[@id=\"cmdSignIn\"]",
+    "cookieButton": "//*[@id=\"Body1\"]/div[1]/div/a",
+    "verifyByNameLocationElem": "//*[@id=\"OTIResponsiveContentPane\"]/table/tbody/tr[2]/td/div[3]/div[2]/div[2]/label",
+    "fNameElem": "txtFirstName",
+    "lNameElem": "txtLastName",
+    "certNumElem": "txtAccountNumber",
+    "stateDropdown": "//*[@id=\"ddlStates\"]",
+    "verifyCertButton": "//*[@id=\"697f7894_af72_48fb_9d42_6dd17777b1de_btnSearchByNameLocation\"]",
+    "verifyCertButtonNum": "//*[@id=\"697f7894_af72_48fb_9d42_6dd17777b1de_btnSearchByAccountNumber\"]",
+    "resultLink": "//*[@id=\"3b83861e_e882_4f4d_a452_90ea68cf6111\"]/div[1]/div[1]/div/a",
+    "accountNumber": "//*[@id=\"ec97780e_444d_4814_ba62_2c56baa21598_lblStatus\"]/div/div[1]/div[2]",
+    "expirationDate": "//*[@id=\"ec97780e_444d_4814_ba62_2c56baa21598_lblStatus\"]/div/div[2]/div[3]",
+    "emailRec": [
+        "person@1.com",
+        "person@2.com",
+        "person@3.com"
+    ],
+    "emailCreds": [
+        {
+            "username": "youremail@here.com",
+            "password": "Y0uRpa55w0rdH3re!"
+        }
+    ],
+    "siteCreds": [
+        {
+            "username": "youremail@here.com",
+            "password": "Y0uRpa55w0rdH3re!"
+        }
+    ]
+}
